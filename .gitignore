@@ -1,0 +1,23 @@
+# Python
+smart-retail-ai-backend/__pycache__/
+smart-retail-ai-backend/.venv/
+smart-retail-ai-backend/venv/
+smart-retail-ai-backend/*.pyc
+
+# React
+smart-retail-frontend/node_modules/
+smart-retail-frontend/dist/
+
+# Environment
+.env
+*.env
+
+# VS Code
+.vscode/
+
+# Python cache
+.pytest_cache/
+
+# OS
+.DS_Store
+Thumbs.db

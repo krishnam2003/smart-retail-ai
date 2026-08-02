@@ -1,0 +1,22 @@
+services:
+
+  backend:
+    build:
+      context: ../smart-retail-ai
+
+    container_name: smartretail_backend
+
+    ports:
+      - "8000:8000"
+
+  frontend:
+    build:
+      context: ../smart-retail-frontend
+
+    container_name: smartretail_frontend
+
+    ports:
+      - "5173:80"
+
+    depends_on:
+      - backend
